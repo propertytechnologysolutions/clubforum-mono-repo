@@ -1,0 +1,21 @@
+module.exports = {
+  extends: ['next', 'turbo', 'prettier'],
+  rules: {
+    '@next/next/no-html-link-for-pages': 'off',
+    'react/jsx-key': 'off',
+    'no-console': 'warn',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
+    'no-unused-vars': 'error',
+    'react/jsx-key': 'warn',
+    'react-hooks/exhaustive-deps': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/function-component-definition': 'off',
+    'import/no-unresolved': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'import/prefer-default-export': 'off',
+    'consistent-return': 'off',
+    'arrow-body-style': 'off',
+  },
+};
